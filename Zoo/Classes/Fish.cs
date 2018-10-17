@@ -6,7 +6,7 @@ namespace Zoo.Classes
 {
     public abstract class Fish : Animals
     {
-        public virtual bool HasScales { get; set; }
+        public virtual bool HasScales { get; set; } = true;
 
         public virtual string EatsHumans()
         {
