@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    class Mammals
+    public abstract class Mammals : Animals
     {
+        public int NumberOfLegs { get; set; }
+
+        public abstract string FormsGroup()
+        {
+            return "I assemble into a flock!";
+        }
     }
 }
