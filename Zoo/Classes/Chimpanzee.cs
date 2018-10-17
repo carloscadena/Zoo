@@ -7,7 +7,8 @@ namespace Zoo.Classes
     class Chimpanzee : Mammals
     {
         public override string HasHeart { get; set; } = "Of course I have a heart";
-
+        public override int NumberOfLegs { get; set; } = 2;
+        
         public override string EatFood()
         {
             return "I enjoy bananas very much";
