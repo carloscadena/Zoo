@@ -22,5 +22,9 @@ namespace Zoo.Classes
         {
             return "Making babies is the most fun I have.";
         }
+        public override string MakeSound()
+        {
+            return "squeak squeak";
+        }
     }
 }

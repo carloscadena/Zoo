@@ -6,7 +6,7 @@ namespace Zoo.Classes
 {
     class Beagle : Dog
     {
-        public string isHunter { get; set; } = "I was bred to hunt";
+        public string IsHunter { get; set; } = "I was bred to hunt";
         public override string EatFood()
         {
             return "mmhmm more kibble please";

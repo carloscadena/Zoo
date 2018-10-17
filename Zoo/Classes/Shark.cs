@@ -18,5 +18,9 @@ namespace Zoo.Classes
         {
             return "In addition to humans, I also like smaller fish.";
         }
+        public override string MakeSound()
+        {
+            return "rawr";
+        }
     }
 }

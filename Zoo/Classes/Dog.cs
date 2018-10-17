@@ -13,5 +13,9 @@ namespace Zoo.Classes
         {
             return "I can spin in a circle!";
         }
+        public override string MakeSound()
+        {
+            return "Bow-wow-wow";
+        }
     }
 }

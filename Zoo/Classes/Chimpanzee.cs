@@ -23,5 +23,9 @@ namespace Zoo.Classes
         {
             return "Making babies is my favorite thing to do";
         }
+        public override string MakeSound()
+        {
+            return "Screech! That's what a chimp sounds like, right?";
+        }
     }
 }
