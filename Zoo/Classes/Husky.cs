@@ -24,7 +24,11 @@ namespace Zoo.Classes
         }
         public override string LearnTrick()
         {
-            return "I can speak! Bark!";
+            return "I can speak now! Bark Bark!";
+        }
+        public override string DoTrick()
+        {
+            return "*rolls over*";
         }
     }
 }

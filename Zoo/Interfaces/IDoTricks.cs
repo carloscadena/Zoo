@@ -6,5 +6,6 @@ namespace Zoo.Interfaces
 {
     interface IDoTricks
     {
+        string DoTrick();
     }
 }

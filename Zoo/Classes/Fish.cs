@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo.Classes
 {
-    public abstract class Fish : Animals
+    public abstract class Fish : Animals, ISwim
     {
         public virtual bool HasScales { get; set; } = true;
 
