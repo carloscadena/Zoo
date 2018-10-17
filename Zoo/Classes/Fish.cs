@@ -6,7 +6,7 @@ namespace Zoo.Classes
 {
     public abstract class Fish : Animals
     {
-        public bool HasScales { get; set; }
+        public virtual bool HasScales { get; set; }
 
         public virtual string EatsHumans()
         {
@@ -16,10 +16,7 @@ namespace Zoo.Classes
         {
             return "Of course we make babies.";
         }
-        public override string EatFood()
-        {
-            return "I like to eat fish that are smaller than me.";
-        }
+        
 
     }
 }
