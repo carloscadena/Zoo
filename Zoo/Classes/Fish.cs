@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
@@ -16,7 +17,10 @@ namespace Zoo.Classes
         {
             return "Of course we make babies.";
         }
-        
 
+        public string Swim()
+        {
+            return "swimming is life";
+        }
     }
 }
