@@ -8,9 +8,6 @@ namespace Zoo.Classes
     {
         public int NumberOfLegs { get; set; }
 
-        public abstract string FormsGroup()
-        {
-            return "I assemble into a flock!";
-        }
+        public abstract string FormsGroup();
     }
 }
